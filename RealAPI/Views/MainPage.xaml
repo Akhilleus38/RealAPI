@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealAPI.MainPage">
+
+    <StackLayout Margin="20" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+ 
+        <Entry x:Name="MyUserName" Placeholder="UserName"/>
+        <Entry x:Name="MyUserPassword" Placeholder="Password"/>
+        <Button Text="Login" Clicked="Button_Clicked" Background="#6200EE"  TextColor="White" Margin="30"/>
+        <Button Text="Grapgics" Clicked="Button_Clicked2" Background="#0100FE"  TextColor="White" Margin="30"/>
+
+    </StackLayout>
+
+</ContentPage>
